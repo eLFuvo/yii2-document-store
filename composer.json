@@ -1,0 +1,30 @@
+{
+    "name": "elfuvo/yii2-document-store",
+    "description": "Yii2 mysql Document store library",
+    "type": "yii2-extension",
+    "version": "0.0.1",
+    "keywords": [
+        "Yii2",
+        "extension",
+        "mysqlx",
+        "xdevapi",
+        "Document store"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "elfuvo",
+            "email": "elfuvo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "elfuvo/document-store": "~0.0.1",
+        "yiisoft/yii2": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "elfuvo\\yiiDocumentStore\\": "src"
+        }
+    }
+}
